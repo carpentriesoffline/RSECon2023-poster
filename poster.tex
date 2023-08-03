@@ -44,7 +44,7 @@
 
 \title{Running a Carpentries Workshop without the Internet}
 
-\author{Jannetta S. Steyn \inst{1} \and Colin Sauze \inst{2} \and Abhishek Dasgupta \inst{3}}
+\author{Jannetta S. Steyn \inst{1} \and Frances Turner \inst{1} \and Colin Sauze \inst{2} \and Abhishek Dasgupta \inst{3}}
 
 \institute[shortinst]{\inst{1} Newcastle University \samelineand \inst{2}National Oceanography Centre \samelineand \inst{3} University of Oxford} 
 
@@ -113,21 +113,17 @@
 					learners to install on their computers as well as Gitea which is a replacement service for GitHub. An image that can be written to 
 					a microSD card is available for download. Once the image is written to the microSD card it can be inserted into the RPi and with no 
 					further effort the RPi should boot into a server offering all the above mentioned services.					
+					\break
+					\break
 				\end{alertblock}
 				
-				\begin{block}{Server Software for CarpentriesOffline}
-					\begin{table}
-						\caption{Pebble the RockPi version}				
-						\begin{tabular}{l}
-							\textbf{Item} \\
-							\hline
-							Apache Web Server \\
-							Gitea \\
-							MiniCRAN \\
-							Carpentries Lessons \\
-							Software downloads \\
-						\end{tabular}
-					\end{table}
+				\begin{block}{How it works}
+					\begin{figure}
+						\begin{center}
+							\includegraphics[width=.5\columnwidth]{logos/carpentriesoffline_schemaidea.png}
+							\caption{If connectivity to the Internet is lost, the CarpentriesOffline server provides networking and all the web services required for a workshop.}
+						\end{center}
+					\end{figure}
 				\end{block}
 			\end{column}
 			
@@ -150,15 +146,35 @@
 					a USB device such as a flashdrive. As with the microSD card image for the RPi we have created an image that can be written to a flashdrive 
 					and allows the computer to boot into a Linux distro (Debian based Slax) which turns the computer into a server with the same functionality 
 					provided on the microSD card. For the moment we only have an image for PCs, but we are looking into creating an option for Macs.
+					\break
+					\break
+					\break
+					
 				\end{alertblock}
-			
-				\begin{block}{CarpentriesOffline Home Page}
-					\begin{figure}
-						\begin{center}
-							\includegraphics[width=0.9\columnwidth]{logos/webpage.png}
-							\caption{The CarpentriesOffline Home Page allows learners to download everything they need as well as provide Gitea to replace GitHub.}
-						\end{center}
-					\end{figure}
+				
+				\begin{block}{Bill of Materials}
+					\begin{table}
+					\parbox{.45\linewidth}{
+						\centering
+						\caption{Pebble the RockPi version}				
+						\begin{tabular}{l|r|r}
+							\textbf{Item} & \textbf{Qty} & \textbf{Price} \\
+							\hline
+							RockPi 4C+ & 8 & £506.00\\
+							PoE Hats & 8 & 140.00 \\
+							NvME SSD & 1 & £51.00 \\
+							10 port switch & 1 & £150.00 \\
+							Short Cat 6 10baseT & 8 & £7.00\\
+							Dual Cooling fan & 1 & £24.00 \\
+							DIN Rail & 1 & £2.00 \\
+							3D printed rail stand & 2 & £2.00 \\
+							3D printed DIN rail cases & 8 & £18.00 \\
+							Optional Case & 1 & £322.00 \\
+							\hline
+							\textbf{Total} &  & £1222.00 \\
+						\end{tabular}
+					}
+					\end{table}
 				\end{block}
 
 			\end{column}
@@ -215,24 +231,7 @@
 %							\end{tabular}
 %						}
 %						\hfill
-						\parbox{.45\linewidth}{
-							\centering
-							\caption{Pebble the RockPi version}				
-							\begin{tabular}{l c}
-								\textbf{Item} & \textbf{Qty} \\
-								\hline
-								RockPi 4C+ & 8 \\
-								RockPi 4SE & 1 \\
-								Power supply & 1 \\
-								10 port switch & 1 \\
-								4 port strip plug & 1 \\
-								Short Cat 6 10baseT & 9 \\
-								Dual Cooling fan & 1 \\
-								DIN Rail & 1 \\
-								3D printed rail stand & 2 \\
-								3D printed DIN rail cases & 9 \\
-							\end{tabular}
-						}
+
 						\parbox{.45\linewidth}{
 							\centering
 							\caption{Software}				
@@ -248,6 +247,7 @@
 								Munge & Authentication \\
 								DHCP & IP Allocation \\
 								EasyBuild & Software Building \\
+								RaspAP & Access Point \\
 							\end{tabular}
 						}
 					\end{table}
