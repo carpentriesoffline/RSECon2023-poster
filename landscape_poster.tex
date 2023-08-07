@@ -15,7 +15,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{xcolor}
 \usepackage{lmodern}
-\usepackage[size=custom,width=100,height=75,scale=1.0]{beamerposter}
+\usepackage[orientation=portrait,size=a0,width=100,height=75,scale=1.0]{beamerposter}
 \usetheme{gemini}
 \usecolortheme{gemini}
 \usepackage{graphicx}
@@ -32,11 +32,10 @@
 % (N+1)*\sepwidth + N*\colwidth = \paperwidth
 \newlength{\sepwidth}
 \newlength{\colwidth}
-\setlength{\sepwidth}{0.025\paperwidth}
-\setlength{\colwidth}{0.3\paperwidth}
+\setlength{\colwidth}{0.45\paperwidth}
+\setlength{\sepwidth}{0.033\paperwidth}
 
-\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
-
+\newcommand{\separatorcolumn}{
 
 % ====================
 % Title
@@ -76,7 +75,7 @@
 	{
 		\begin{tikzpicture}[remember picture,overlay]
 			\node [anchor=north west, inner sep=3cm] at ([xshift=-0.5cm,yshift=0.5cm]current page.north west)
-			{\includegraphics[height=4.5cm]{logos/OFFLINE.png}}; % also try shield-white.eps
+			{\includegraphics[width=10.0cm]{logos/OFFLINE.png}}; % also try shield-white.eps
 			\node [anchor=north east, inner sep=3cm] at ([xshift=0.0cm,yshift=2.5cm]current page.north east)
 			{\includegraphics[height=8.0cm]{logos/qr.png}};
 		\end{tikzpicture}
@@ -84,16 +83,11 @@
 	
 	\begin{frame}[t]
 		\begin{block}{\large Abstract}	
-
 			CarpentriesOffline (https://carpentriesoffline.org) is an out of the box solution for running a Carpentries workshop from a single device such as a Raspberry Pi (RPi), old laptop or even a dedicated server. It is intended for use in environments where there is limited or no internet access. Everything needed to run the workshop including course notes, data files, software downloads, a Git server, etherpad and a JupyterHub server are provided by the CarpentriesOffline system. It can also provide a backup environment for those with better connectivity in the event of the Carpentries website, etherpad, GitHub etc suffering an outage.
 		\end{block}
-	
 		\begin{columns}[t]
 			\separatorcolumn
-			
-			
 			\begin{column}{\colwidth}
-				
 				\begin{block}{Raspberry Pi Solution}
 					\begin{center}
 						\begin{figure}
@@ -101,10 +95,27 @@
 							\caption{A Raspberry Pi Zero running CarpentriesOffline on RPi OS and powered with a USB Power Bank - tested at RSECon2022}
 						\end{figure}
 					\end{center}
-
-					
 				\end{block}
-				
+				\begin{block}{FlashDrive Solution}
+					\begin{figure}
+						\begin{center}
+							\includegraphics[width=0.6\columnwidth]{logos/FlashDrive.png}
+							\caption{A bootable flashdrive with Debian based Slax Linux and everything needed to turn a laptop into an access point and a web server}
+						\end{center}
+					\end{figure}
+				\end{block}
+				\begin{block}{The miniHPC }	
+					\begin{figure}
+						\begin{center}
+							\includegraphics[width=0.9\columnwidth]{logos/mini-HPC-proto1.png}
+							\caption{Pixie the prototype miniHPC built from RPi4s using pre-owned RPi 4s. 
+								For the next iteration we bought Rock Pi 4C+}
+						\end{center}
+					\end{figure}
+				\end{block}
+			\end{column}
+			\separatorcolumn
+			\begin{column}{\colwidth}
 				\begin{alertblock}{Carpentries in your Pocket}
 					
 					RPis are credit card sized computers that are used in education and by hobbyists to learn about computing and electronics. 
@@ -115,8 +126,61 @@
 					further effort the RPi should boot into a server offering all the above mentioned services.					
 					\break
 					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+				\end{alertblock}		
+				\begin{alertblock}{Carpentries on a Stick}			
+					RPis are relatively cheap but in communities where Internet access is problematic it is likely that they are either not available or still 
+					costly. Most researchers will already have either a laptop of their own or one provided by their institution. Most laptops can boot from 
+					a USB device such as a flashdrive. As with the microSD card image for the RPi we have created an image that can be written to a flashdrive 
+					and allows the computer to boot into a Linux distro (Debian based Slax) which turns the computer into a server with the same functionality 
+					provided on the microSD card. For the moment we only have an image for PCs, but we are looking into creating an option for Macs
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
+					\break
 				\end{alertblock}
-				
+				\begin{alertblock}{Why?}
+					Why build yet another miniHPC? There are quite a few around already. However, none of these 
+					are aimed at continuous use in training and prototyping. We aim to provide detailed instructions
+					for building a miniHPC but then also Carpentries style lessons for instructors to use these 
+					miniHPCs in workshops. The advantages are many:
+					\begin{itemize}
+						\item \textbf{More control} over the hardware.
+						\item \textbf{Obtaining user accounts} on HPCs can be difficult and often
+						learners do not register in time.
+						\item \textbf{Avoids extra load} on a real HPC that is being used for research.
+						\item \textbf{Visible hardware} makes the concept of an HPC less abstract to learners.
+						\item \textbf{Resource limits} are more apparent. 
+						\break
+						\break
+						\break
+						\break
+						\break
+						\break
+						\break
+						\break
+					\end{itemize}
+				\end{alertblock}		
+			\end{column}
+			\separatorcolumn
+		\end{columns}
+	
+		\begin{columns}
+			\begin{column}{0.025\paperwidth}\end{column}
+			\begin{column}{0.33\paperwidth}
 				\begin{block}{How it works}
 					\begin{figure}
 						\begin{center}
@@ -126,113 +190,11 @@
 					\end{figure}
 				\end{block}
 			\end{column}
-			
-			\separatorcolumn
-			
-			\begin{column}{\colwidth}
-				
-				\begin{block}{FlashDrive Solution}
-					\begin{figure}
-						\begin{center}
-							\includegraphics[width=0.6\columnwidth]{logos/FlashDrive.png}
-							\caption{A bootable flashdrive with Debian based Slax Linux and everything needed to turn a laptop into an access point and a web server}
-						\end{center}
-					\end{figure}
-				\end{block}
-			
-				\begin{alertblock}{Carpentries on a Stick}			
-					RPis are relatively cheap but in communities where Internet access is problematic it is likely that they are either not available or still 
-					costly. Most researchers will already have either a laptop of their own or one provided by their institution. Most laptops can boot from 
-					a USB device such as a flashdrive. As with the microSD card image for the RPi we have created an image that can be written to a flashdrive 
-					and allows the computer to boot into a Linux distro (Debian based Slax) which turns the computer into a server with the same functionality 
-					provided on the microSD card. For the moment we only have an image for PCs, but we are looking into creating an option for Macs.
-					\break
-					\break
-					\break
-					
-				\end{alertblock}
-				
-				\begin{block}{Bill of Materials}
+			\begin{column}{0.025\paperwidth}\end{column}
+			\begin{column}{0.33\paperwidth}
+				\begin{block}{Software}
 					\begin{table}
-					\parbox{.45\linewidth}{
-						\centering
-						\caption{Pebble the RockPi version}				
-						\begin{tabular}{l|r|r}
-							\textbf{Item} & \textbf{Qty} & \textbf{Price} \\
-							\hline
-							RockPi 4C+ & 8 & £506.00\\
-							PoE Hats & 8 & 140.00 \\
-							NvME SSD & 1 & £51.00 \\
-							10 port switch & 1 & £150.00 \\
-							Short Cat 6 10baseT & 8 & £7.00\\
-							Dual Cooling fan & 1 & £24.00 \\
-							DIN Rail & 1 & £2.00 \\
-							3D printed rail stand & 2 & £2.00 \\
-							3D printed DIN rail cases & 8 & £18.00 \\
-							Optional transport case & 1 & £322.00 \\
-							\hline
-							\textbf{Total} &  & £1222.00 \\
-						\end{tabular}
-					}
-					\end{table}
-				\end{block}
-
-			\end{column}
-			
-			\separatorcolumn
-			
-			\begin{column}{\colwidth}
-				
-				\begin{block}{The miniHPC }
-
-					\begin{figure}
-						\begin{center}
-							\includegraphics[width=0.9\columnwidth]{logos/mini-HPC-proto1.png}
-							\caption{Pixie the prototype miniHPC built from RPi4s using pre-owned RPi 4s. 
-								For the next iteration we bought Rock Pi 4C+}
-						\end{center}
-					\end{figure}
-				\end{block}
-
-				\begin{alertblock}{Why?}
-					Why build yet another miniHPC? There are quite a few around already. However, none of these 
-					are aimed at continuous use in training and prototyping. We aim to provide detailed instructions
-					for building a miniHPC but then also Carpentries style lessons for instructors to use these 
-					miniHPCs in workshops. The advantages are many:
-					
-					\begin{itemize}
-						\item \textbf{More control} over the hardware.
-						\item \textbf{Obtaining user accounts} on HPCs can be difficult and often
-						learners do not register in time.
-						\item \textbf{Avoids extra load} on a real HPC that is being used for research.
-						\item \textbf{Visible hardware} makes the concept of an HPC less abstract to learners.
-						\item \textbf{Resource limits} are more apparent. 
-					\end{itemize}
-				\end{alertblock}		
-					
-				\begin{block}{Bills of Material}
-					\begin{table}
-%						\parbox{.45\linewidth}{
-%							\centering
-%							\caption{Pixie the Prototype}			
-%							\begin{tabular}{l c}
-%								\textbf{Item} & \textbf{Qty} \\
-%								\hline
-%								Raspberry Pi 4 & 5 \\
-%								Power supply & 5 \\
-%								8 port switch & 1 \\
-%								8 port strip plug & 1 \\
-%								Short Cat 6 10baseT & 8 \\
-%								Cooling fan & 1 \\
-%								DIN Rail & 1 \\
-%								3D printed rail stand & 2 \\
-%								3D printed DIN rail cases & 5 \\
-%								 & \\
-%							\end{tabular}
-%						}
-%						\hfill
-
-						\parbox{.45\linewidth}{
+						\parbox{.33\linewidth}{
 							\centering
 							\caption{Software}				
 							\begin{tabular}{l|l}
@@ -251,9 +213,36 @@
 							\end{tabular}
 						}
 					\end{table}
-				\end{block}	
-			\end{column}			
-			\separatorcolumn
+				\end{block}
+			\end{column}
+			\begin{column}{0.025\paperwidth}\end{column}
+			\begin{column}{0.33\paperwidth}
+				\begin{block}{Bill of Materials}
+					\begin{table}
+						\parbox{.33\linewidth}{
+							\centering
+							\caption{Pebble the RockPi version}				
+							\begin{tabular}{l|r|r}
+								\textbf{Item} & \textbf{Qty} & \textbf{Price} \\
+								\hline
+								RockPi 4C+ & 8 & £506.00\\
+								PoE Hats & 8 & 140.00 \\
+								NvME SSD & 1 & £51.00 \\
+								10 port switch & 1 & £150.00 \\
+								Short Cat 6 10baseT & 8 & £7.00\\
+								Dual Cooling fan & 1 & £24.00 \\
+								DIN Rail & 1 & £2.00 \\
+								3D printed rail stand & 2 & £2.00 \\
+								3D printed DIN rail cases & 8 & £18.00 \\
+								Optional transport case & 1 & £322.00 \\
+								\hline
+								\textbf{Total} &  & £1222.00 \\
+							\end{tabular}
+						}
+					\end{table}
+				\end{block}
+			\end{column}
+			\begin{column}{0.025\paperwidth}\end{column}
 		\end{columns}
 	\end{frame}
 	
