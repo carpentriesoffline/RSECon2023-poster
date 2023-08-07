@@ -9,15 +9,15 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: poster.tex
+          root_file: portrait_poster.tex
           latexmk_use_lualatex: true
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
-          name: poster
-          path: poster.pdf
+          name: portrait_poster
+          path: portrait_poster.pdf
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: poster.zip
+          files: portrait_poster.zip
