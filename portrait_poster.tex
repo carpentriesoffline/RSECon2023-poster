@@ -6,7 +6,7 @@
 % https://github.com/anishathalye/gemini
 
 
-\documentclass[final]{beamer}
+\documentclass[final,20pt]{beamer}
 
 % ====================
 % Packages
@@ -15,7 +15,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{xcolor}
 \usepackage{lmodern}
-\usepackage[orientation=portrait,size=a0,width=100,height=75,scale=1.0]{beamerposter}
+\usepackage[orientation=portrait,size=a0,width=100,scale=1.2]{beamerposter}
 \usetheme{gemini}
 \usecolortheme{gemini}
 \usepackage{graphicx}
@@ -35,7 +35,7 @@
 \setlength{\colwidth}{0.45\paperwidth}
 \setlength{\sepwidth}{0.033\paperwidth}
 
-\newcommand{\separatorcolumn}{
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
 
 % ====================
 % Title
@@ -74,10 +74,10 @@
 	\addtobeamertemplate{headline}{}
 	{
 		\begin{tikzpicture}[remember picture,overlay]
-			\node [anchor=north west, inner sep=3cm] at ([xshift=-0.5cm,yshift=0.5cm]current page.north west)
-			{\includegraphics[width=10.0cm]{logos/OFFLINE.png}}; % also try shield-white.eps
-			\node [anchor=north east, inner sep=3cm] at ([xshift=0.0cm,yshift=2.5cm]current page.north east)
-			{\includegraphics[height=8.0cm]{logos/qr.png}};
+			\node [anchor=north west, inner sep=3cm] at ([xshift=-2cm,yshift=0.5cm]current page.north west)
+			{\includegraphics[width=7.0cm]{logos/OFFLINE.png}}; % also try shield-white.eps
+			\node [anchor=north east, inner sep=3cm] at ([xshift=1.0cm,yshift=1.5cm]current page.north east)
+			{\includegraphics[height=7.0cm]{logos/qr.png}};
 		\end{tikzpicture}
 	}
 	
@@ -85,6 +85,7 @@
 		\begin{block}{\large Abstract}	
 			CarpentriesOffline (https://carpentriesoffline.org) is an out of the box solution for running a Carpentries workshop from a single device such as a Raspberry Pi (RPi), old laptop or even a dedicated server. It is intended for use in environments where there is limited or no internet access. Everything needed to run the workshop including course notes, data files, software downloads, a Git server, etherpad and a JupyterHub server are provided by the CarpentriesOffline system. It can also provide a backup environment for those with better connectivity in the event of the Carpentries website, etherpad, GitHub etc suffering an outage.
 		\end{block}
+		\vfill
 		\begin{columns}[t]
 			\separatorcolumn
 			\begin{column}{\colwidth}
@@ -103,6 +104,7 @@
 							\caption{A bootable flashdrive with Debian based Slax Linux and everything needed to turn a laptop into an access point and a web server}
 						\end{center}
 					\end{figure}
+
 				\end{block}
 				\begin{block}{The miniHPC }	
 					\begin{figure}
@@ -117,47 +119,40 @@
 			\separatorcolumn
 			\begin{column}{\colwidth}
 				\begin{alertblock}{Carpentries in your Pocket}
-					
 					RPis are credit card sized computers that are used in education and by hobbyists to learn about computing and electronics. 
 					These little computers have many applications including being used as workstations and servers. For CarpentriesOffline we turn a single 
 					Raspberry Pi into a WiFi access point as well as a web server that serves Carpentries lessons, offers all the downloads required for 
 					learners to install on their computers as well as Gitea which is a replacement service for GitHub. An image that can be written to 
-					a microSD card is available for download. Once the image is written to the microSD card it can be inserted into the RPi and with no 
+					a microSD card is available. Once the image is written to the microSD card it can be inserted into the RPi and with no 
 					further effort the RPi should boot into a server offering all the above mentioned services.					
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
+					\begin{center}
+						\begin{figure}
+							\includegraphics[width=0.9\columnwidth]{svg/sdcard.png}
+							\caption{Preparing an SD card to run CarpentriesOffline on a Raspberry Pi}
+						\end{figure}
+					\end{center}
 				\end{alertblock}		
 				\begin{alertblock}{Carpentries on a Stick}			
 					RPis are relatively cheap but in communities where Internet access is problematic it is likely that they are either not available or still 
 					costly. Most researchers will already have either a laptop of their own or one provided by their institution. Most laptops can boot from 
 					a USB device such as a flashdrive. As with the microSD card image for the RPi we have created an image that can be written to a flashdrive 
 					and allows the computer to boot into a Linux distro (Debian based Slax) which turns the computer into a server with the same functionality 
-					provided on the microSD card. For the moment we only have an image for PCs, but we are looking into creating an option for Macs
+					provided on the microSD card. For the moment we only have an image for PCs, but we are looking into creating an option for Macs.
 					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
-					\break
+					\begin{center}
+						\begin{figure}
+							\includegraphics[width=0.9\columnwidth]{svg/flashdrive.png}
+							\caption{Preparing a flash drive to run CarpentriesOffline on a Raspberry Pi}
+						\end{figure}
+					\end{center}
 				\end{alertblock}
-				\begin{alertblock}{Why?}
+				\begin{alertblock}{Why another miniHPC?}
 					Why build yet another miniHPC? There are quite a few around already. However, none of these 
 					are aimed at continuous use in training and prototyping. We aim to provide detailed instructions
 					for building a miniHPC but then also Carpentries style lessons for instructors to use these 
 					miniHPCs in workshops. The advantages are many:
-					\begin{itemize}
+						\break
+						\begin{itemize}
 						\item \textbf{More control} over the hardware.
 						\item \textbf{Obtaining user accounts} on HPCs can be difficult and often
 						learners do not register in time.
@@ -165,22 +160,18 @@
 						\item \textbf{Visible hardware} makes the concept of an HPC less abstract to learners.
 						\item \textbf{Resource limits} are more apparent. 
 						\break
+
 						\break
-						\break
-						\break
-						\break
-						\break
-						\break
-						\break
+
 					\end{itemize}
 				\end{alertblock}		
 			\end{column}
 			\separatorcolumn
 		\end{columns}
 	
-		\begin{columns}
-			\begin{column}{0.025\paperwidth}\end{column}
-			\begin{column}{0.33\paperwidth}
+		\begin{columns}[t]
+			\begin{column}{0.02\paperwidth}\end{column}
+			\begin{column}{0.3\paperwidth}
 				\begin{block}{How it works}
 					\begin{figure}
 						\begin{center}
@@ -190,15 +181,15 @@
 					\end{figure}
 				\end{block}
 			\end{column}
-			\begin{column}{0.025\paperwidth}\end{column}
-			\begin{column}{0.33\paperwidth}
+			\begin{column}{0.02\paperwidth}\end{column}
+			\begin{column}{0.3\paperwidth}
 				\begin{block}{Software}
 					\begin{table}
-						\parbox{.33\linewidth}{
+						\parbox{.3\linewidth}{
 							\centering
 							\caption{Software}				
 							\begin{tabular}{l|l}
-								\textbf{Product} & {Purpose}\\
+								\textbf{Product} & \textbf{Purpose}\\
 								\hline
 								Slurm & Job Scheduler \\
 								lmod & Module System \\
@@ -215,15 +206,14 @@
 					\end{table}
 				\end{block}
 			\end{column}
-			\begin{column}{0.025\paperwidth}\end{column}
-			\begin{column}{0.33\paperwidth}
+			\begin{column}{0.02\paperwidth}\end{column}
+			\begin{column}{0.3\paperwidth}
 				\begin{block}{Bill of Materials}
 					\begin{table}
-						\parbox{.33\linewidth}{
-							\centering
+						\parbox{.7\linewidth}{
 							\caption{Pebble the RockPi version}				
 							\begin{tabular}{l|r|r}
-								\textbf{Item} & \textbf{Qty} & \textbf{Price} \\
+								\textbf{Item} & \textbf{\#} & \textbf{Price} \\
 								\hline
 								RockPi 4C+ & 8 & £506.00\\
 								PoE Hats & 8 & 140.00 \\
@@ -242,7 +232,7 @@
 					\end{table}
 				\end{block}
 			\end{column}
-			\begin{column}{0.025\paperwidth}\end{column}
+			\begin{column}{0.02\paperwidth}\end{column}
 		\end{columns}
 	\end{frame}
 	
