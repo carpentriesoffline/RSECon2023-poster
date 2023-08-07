@@ -1,0 +1,1990 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="344.51675"
+   height="426.48154"
+   version="1.1"
+   id="svg743"
+   sodipodi:docname="qrcode.svg"
+   inkscape:export-filename="/media/jannetta/WORKDRIVE/DATA/GitHub_Repositories/carpentriesoffline_repositories/RSECon2023-poster/svg/qrcode.png"
+   inkscape:export-xdpi="103.6"
+   inkscape:export-ydpi="103.6"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview745"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.9789836"
+     inkscape:cx="172.05802"
+     inkscape:cy="213.24077"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg743">
+    <sodipodi:guide
+       position="2.5,-14.728272"
+       orientation="1,0"
+       id="guide4669" />
+    <sodipodi:guide
+       position="342.01675,350.23877"
+       orientation="1,0"
+       id="guide4671" />
+  </sodipodi:namedview>
+  <defs
+     id="defs737">
+    <clipPath
+       id="clip-path-dot-color">
+      <circle
+         cx="10"
+         cy="110"
+         r="5"
+         id="circle2" />
+      <circle
+         cx="10"
+         cy="130"
+         r="5"
+         id="circle4" />
+      <circle
+         cx="10"
+         cy="140"
+         r="5"
+         id="circle6" />
+      <circle
+         cx="10"
+         cy="170"
+         r="5"
+         id="circle8" />
+      <circle
+         cx="10"
+         cy="180"
+         r="5"
+         id="circle10" />
+      <circle
+         cx="10"
+         cy="190"
+         r="5"
+         id="circle12" />
+      <circle
+         cx="20"
+         cy="90"
+         r="5"
+         id="circle14" />
+      <circle
+         cx="20"
+         cy="100"
+         r="5"
+         id="circle16" />
+      <circle
+         cx="20"
+         cy="110"
+         r="5"
+         id="circle18" />
+      <circle
+         cx="20"
+         cy="140"
+         r="5"
+         id="circle20" />
+      <circle
+         cx="20"
+         cy="150"
+         r="5"
+         id="circle22" />
+      <circle
+         cx="20"
+         cy="160"
+         r="5"
+         id="circle24" />
+      <circle
+         cx="20"
+         cy="170"
+         r="5"
+         id="circle26" />
+      <circle
+         cx="20"
+         cy="180"
+         r="5"
+         id="circle28" />
+      <circle
+         cx="20"
+         cy="190"
+         r="5"
+         id="circle30" />
+      <circle
+         cx="20"
+         cy="200"
+         r="5"
+         id="circle32" />
+      <circle
+         cx="20"
+         cy="210"
+         r="5"
+         id="circle34" />
+      <circle
+         cx="30"
+         cy="100"
+         r="5"
+         id="circle36" />
+      <circle
+         cx="30"
+         cy="110"
+         r="5"
+         id="circle38" />
+      <circle
+         cx="30"
+         cy="120"
+         r="5"
+         id="circle40" />
+      <circle
+         cx="30"
+         cy="140"
+         r="5"
+         id="circle42" />
+      <circle
+         cx="30"
+         cy="160"
+         r="5"
+         id="circle44" />
+      <circle
+         cx="30"
+         cy="170"
+         r="5"
+         id="circle46" />
+      <circle
+         cx="30"
+         cy="190"
+         r="5"
+         id="circle48" />
+      <circle
+         cx="30"
+         cy="210"
+         r="5"
+         id="circle50" />
+      <circle
+         cx="40"
+         cy="90"
+         r="5"
+         id="circle52" />
+      <circle
+         cx="40"
+         cy="100"
+         r="5"
+         id="circle54" />
+      <circle
+         cx="40"
+         cy="110"
+         r="5"
+         id="circle56" />
+      <circle
+         cx="40"
+         cy="120"
+         r="5"
+         id="circle58" />
+      <circle
+         cx="40"
+         cy="160"
+         r="5"
+         id="circle60" />
+      <circle
+         cx="40"
+         cy="170"
+         r="5"
+         id="circle62" />
+      <circle
+         cx="40"
+         cy="180"
+         r="5"
+         id="circle64" />
+      <circle
+         cx="40"
+         cy="200"
+         r="5"
+         id="circle66" />
+      <circle
+         cx="50"
+         cy="90"
+         r="5"
+         id="circle68" />
+      <circle
+         cx="50"
+         cy="110"
+         r="5"
+         id="circle70" />
+      <circle
+         cx="50"
+         cy="120"
+         r="5"
+         id="circle72" />
+      <circle
+         cx="50"
+         cy="140"
+         r="5"
+         id="circle74" />
+      <circle
+         cx="50"
+         cy="150"
+         r="5"
+         id="circle76" />
+      <circle
+         cx="50"
+         cy="170"
+         r="5"
+         id="circle78" />
+      <circle
+         cx="50"
+         cy="200"
+         r="5"
+         id="circle80" />
+      <circle
+         cx="60"
+         cy="110"
+         r="5"
+         id="circle82" />
+      <circle
+         cx="60"
+         cy="150"
+         r="5"
+         id="circle84" />
+      <circle
+         cx="60"
+         cy="160"
+         r="5"
+         id="circle86" />
+      <circle
+         cx="60"
+         cy="210"
+         r="5"
+         id="circle88" />
+      <circle
+         cx="70"
+         cy="90"
+         r="5"
+         id="circle90" />
+      <circle
+         cx="70"
+         cy="110"
+         r="5"
+         id="circle92" />
+      <circle
+         cx="70"
+         cy="130"
+         r="5"
+         id="circle94" />
+      <circle
+         cx="70"
+         cy="150"
+         r="5"
+         id="circle96" />
+      <circle
+         cx="70"
+         cy="170"
+         r="5"
+         id="circle98" />
+      <circle
+         cx="70"
+         cy="190"
+         r="5"
+         id="circle100" />
+      <circle
+         cx="70"
+         cy="210"
+         r="5"
+         id="circle102" />
+      <circle
+         cx="80"
+         cy="90"
+         r="5"
+         id="circle104" />
+      <circle
+         cx="80"
+         cy="100"
+         r="5"
+         id="circle106" />
+      <circle
+         cx="80"
+         cy="110"
+         r="5"
+         id="circle108" />
+      <circle
+         cx="80"
+         cy="120"
+         r="5"
+         id="circle110" />
+      <circle
+         cx="80"
+         cy="140"
+         r="5"
+         id="circle112" />
+      <circle
+         cx="80"
+         cy="160"
+         r="5"
+         id="circle114" />
+      <circle
+         cx="80"
+         cy="170"
+         r="5"
+         id="circle116" />
+      <circle
+         cx="80"
+         cy="200"
+         r="5"
+         id="circle118" />
+      <circle
+         cx="80"
+         cy="210"
+         r="5"
+         id="circle120" />
+      <circle
+         cx="90"
+         cy="20"
+         r="5"
+         id="circle122" />
+      <circle
+         cx="90"
+         cy="40"
+         r="5"
+         id="circle124" />
+      <circle
+         cx="90"
+         cy="50"
+         r="5"
+         id="circle126" />
+      <circle
+         cx="90"
+         cy="60"
+         r="5"
+         id="circle128" />
+      <circle
+         cx="90"
+         cy="70"
+         r="5"
+         id="circle130" />
+      <circle
+         cx="90"
+         cy="90"
+         r="5"
+         id="circle132" />
+      <circle
+         cx="90"
+         cy="100"
+         r="5"
+         id="circle134" />
+      <circle
+         cx="90"
+         cy="110"
+         r="5"
+         id="circle136" />
+      <circle
+         cx="90"
+         cy="120"
+         r="5"
+         id="circle138" />
+      <circle
+         cx="90"
+         cy="130"
+         r="5"
+         id="circle140" />
+      <circle
+         cx="90"
+         cy="160"
+         r="5"
+         id="circle142" />
+      <circle
+         cx="90"
+         cy="170"
+         r="5"
+         id="circle144" />
+      <circle
+         cx="90"
+         cy="180"
+         r="5"
+         id="circle146" />
+      <circle
+         cx="90"
+         cy="200"
+         r="5"
+         id="circle148" />
+      <circle
+         cx="90"
+         cy="220"
+         r="5"
+         id="circle150" />
+      <circle
+         cx="90"
+         cy="230"
+         r="5"
+         id="circle152" />
+      <circle
+         cx="90"
+         cy="250"
+         r="5"
+         id="circle154" />
+      <circle
+         cx="90"
+         cy="260"
+         r="5"
+         id="circle156" />
+      <circle
+         cx="90"
+         cy="280"
+         r="5"
+         id="circle158" />
+      <circle
+         cx="100"
+         cy="10"
+         r="5"
+         id="circle160" />
+      <circle
+         cx="100"
+         cy="20"
+         r="5"
+         id="circle162" />
+      <circle
+         cx="100"
+         cy="30"
+         r="5"
+         id="circle164" />
+      <circle
+         cx="100"
+         cy="40"
+         r="5"
+         id="circle166" />
+      <circle
+         cx="100"
+         cy="60"
+         r="5"
+         id="circle168" />
+      <circle
+         cx="100"
+         cy="100"
+         r="5"
+         id="circle170" />
+      <circle
+         cx="100"
+         cy="120"
+         r="5"
+         id="circle172" />
+      <circle
+         cx="100"
+         cy="150"
+         r="5"
+         id="circle174" />
+      <circle
+         cx="100"
+         cy="160"
+         r="5"
+         id="circle176" />
+      <circle
+         cx="100"
+         cy="200"
+         r="5"
+         id="circle178" />
+      <circle
+         cx="100"
+         cy="210"
+         r="5"
+         id="circle180" />
+      <circle
+         cx="100"
+         cy="240"
+         r="5"
+         id="circle182" />
+      <circle
+         cx="100"
+         cy="250"
+         r="5"
+         id="circle184" />
+      <circle
+         cx="100"
+         cy="260"
+         r="5"
+         id="circle186" />
+      <circle
+         cx="100"
+         cy="270"
+         r="5"
+         id="circle188" />
+      <circle
+         cx="100"
+         cy="280"
+         r="5"
+         id="circle190" />
+      <circle
+         cx="110"
+         cy="30"
+         r="5"
+         id="circle192" />
+      <circle
+         cx="110"
+         cy="40"
+         r="5"
+         id="circle194" />
+      <circle
+         cx="110"
+         cy="50"
+         r="5"
+         id="circle196" />
+      <circle
+         cx="110"
+         cy="60"
+         r="5"
+         id="circle198" />
+      <circle
+         cx="110"
+         cy="70"
+         r="5"
+         id="circle200" />
+      <circle
+         cx="110"
+         cy="80"
+         r="5"
+         id="circle202" />
+      <circle
+         cx="110"
+         cy="110"
+         r="5"
+         id="circle204" />
+      <circle
+         cx="110"
+         cy="120"
+         r="5"
+         id="circle206" />
+      <circle
+         cx="110"
+         cy="140"
+         r="5"
+         id="circle208" />
+      <circle
+         cx="110"
+         cy="150"
+         r="5"
+         id="circle210" />
+      <circle
+         cx="110"
+         cy="160"
+         r="5"
+         id="circle212" />
+      <circle
+         cx="110"
+         cy="180"
+         r="5"
+         id="circle214" />
+      <circle
+         cx="110"
+         cy="190"
+         r="5"
+         id="circle216" />
+      <circle
+         cx="110"
+         cy="220"
+         r="5"
+         id="circle218" />
+      <circle
+         cx="110"
+         cy="230"
+         r="5"
+         id="circle220" />
+      <circle
+         cx="110"
+         cy="240"
+         r="5"
+         id="circle222" />
+      <circle
+         cx="110"
+         cy="260"
+         r="5"
+         id="circle224" />
+      <circle
+         cx="110"
+         cy="270"
+         r="5"
+         id="circle226" />
+      <circle
+         cx="120"
+         cy="40"
+         r="5"
+         id="circle228" />
+      <circle
+         cx="120"
+         cy="60"
+         r="5"
+         id="circle230" />
+      <circle
+         cx="120"
+         cy="80"
+         r="5"
+         id="circle232" />
+      <circle
+         cx="120"
+         cy="90"
+         r="5"
+         id="circle234" />
+      <circle
+         cx="120"
+         cy="100"
+         r="5"
+         id="circle236" />
+      <circle
+         cx="120"
+         cy="120"
+         r="5"
+         id="circle238" />
+      <circle
+         cx="120"
+         cy="150"
+         r="5"
+         id="circle240" />
+      <circle
+         cx="120"
+         cy="180"
+         r="5"
+         id="circle242" />
+      <circle
+         cx="120"
+         cy="190"
+         r="5"
+         id="circle244" />
+      <circle
+         cx="120"
+         cy="210"
+         r="5"
+         id="circle246" />
+      <circle
+         cx="120"
+         cy="250"
+         r="5"
+         id="circle248" />
+      <circle
+         cx="120"
+         cy="260"
+         r="5"
+         id="circle250" />
+      <circle
+         cx="120"
+         cy="290"
+         r="5"
+         id="circle252" />
+      <circle
+         cx="130"
+         cy="20"
+         r="5"
+         id="circle254" />
+      <circle
+         cx="130"
+         cy="40"
+         r="5"
+         id="circle256" />
+      <circle
+         cx="130"
+         cy="50"
+         r="5"
+         id="circle258" />
+      <circle
+         cx="130"
+         cy="60"
+         r="5"
+         id="circle260" />
+      <circle
+         cx="130"
+         cy="70"
+         r="5"
+         id="circle262" />
+      <circle
+         cx="130"
+         cy="90"
+         r="5"
+         id="circle264" />
+      <circle
+         cx="130"
+         cy="120"
+         r="5"
+         id="circle266" />
+      <circle
+         cx="130"
+         cy="140"
+         r="5"
+         id="circle268" />
+      <circle
+         cx="130"
+         cy="150"
+         r="5"
+         id="circle270" />
+      <circle
+         cx="130"
+         cy="200"
+         r="5"
+         id="circle272" />
+      <circle
+         cx="130"
+         cy="210"
+         r="5"
+         id="circle274" />
+      <circle
+         cx="130"
+         cy="220"
+         r="5"
+         id="circle276" />
+      <circle
+         cx="130"
+         cy="230"
+         r="5"
+         id="circle278" />
+      <circle
+         cx="130"
+         cy="280"
+         r="5"
+         id="circle280" />
+      <circle
+         cx="140"
+         cy="10"
+         r="5"
+         id="circle282" />
+      <circle
+         cx="140"
+         cy="20"
+         r="5"
+         id="circle284" />
+      <circle
+         cx="140"
+         cy="30"
+         r="5"
+         id="circle286" />
+      <circle
+         cx="140"
+         cy="100"
+         r="5"
+         id="circle288" />
+      <circle
+         cx="140"
+         cy="120"
+         r="5"
+         id="circle290" />
+      <circle
+         cx="140"
+         cy="190"
+         r="5"
+         id="circle292" />
+      <circle
+         cx="140"
+         cy="230"
+         r="5"
+         id="circle294" />
+      <circle
+         cx="140"
+         cy="250"
+         r="5"
+         id="circle296" />
+      <circle
+         cx="140"
+         cy="270"
+         r="5"
+         id="circle298" />
+      <circle
+         cx="140"
+         cy="290"
+         r="5"
+         id="circle300" />
+      <circle
+         cx="150"
+         cy="10"
+         r="5"
+         id="circle302" />
+      <circle
+         cx="150"
+         cy="50"
+         r="5"
+         id="circle304" />
+      <circle
+         cx="150"
+         cy="70"
+         r="5"
+         id="circle306" />
+      <circle
+         cx="150"
+         cy="80"
+         r="5"
+         id="circle308" />
+      <circle
+         cx="150"
+         cy="120"
+         r="5"
+         id="circle310" />
+      <circle
+         cx="150"
+         cy="170"
+         r="5"
+         id="circle312" />
+      <circle
+         cx="150"
+         cy="180"
+         r="5"
+         id="circle314" />
+      <circle
+         cx="150"
+         cy="190"
+         r="5"
+         id="circle316" />
+      <circle
+         cx="150"
+         cy="200"
+         r="5"
+         id="circle318" />
+      <circle
+         cx="150"
+         cy="210"
+         r="5"
+         id="circle320" />
+      <circle
+         cx="150"
+         cy="240"
+         r="5"
+         id="circle322" />
+      <circle
+         cx="150"
+         cy="260"
+         r="5"
+         id="circle324" />
+      <circle
+         cx="150"
+         cy="290"
+         r="5"
+         id="circle326" />
+      <circle
+         cx="160"
+         cy="30"
+         r="5"
+         id="circle328" />
+      <circle
+         cx="160"
+         cy="50"
+         r="5"
+         id="circle330" />
+      <circle
+         cx="160"
+         cy="60"
+         r="5"
+         id="circle332" />
+      <circle
+         cx="160"
+         cy="80"
+         r="5"
+         id="circle334" />
+      <circle
+         cx="160"
+         cy="110"
+         r="5"
+         id="circle336" />
+      <circle
+         cx="160"
+         cy="120"
+         r="5"
+         id="circle338" />
+      <circle
+         cx="160"
+         cy="140"
+         r="5"
+         id="circle340" />
+      <circle
+         cx="160"
+         cy="150"
+         r="5"
+         id="circle342" />
+      <circle
+         cx="160"
+         cy="190"
+         r="5"
+         id="circle344" />
+      <circle
+         cx="160"
+         cy="200"
+         r="5"
+         id="circle346" />
+      <circle
+         cx="160"
+         cy="210"
+         r="5"
+         id="circle348" />
+      <circle
+         cx="160"
+         cy="230"
+         r="5"
+         id="circle350" />
+      <circle
+         cx="160"
+         cy="250"
+         r="5"
+         id="circle352" />
+      <circle
+         cx="160"
+         cy="260"
+         r="5"
+         id="circle354" />
+      <circle
+         cx="160"
+         cy="270"
+         r="5"
+         id="circle356" />
+      <circle
+         cx="160"
+         cy="280"
+         r="5"
+         id="circle358" />
+      <circle
+         cx="160"
+         cy="290"
+         r="5"
+         id="circle360" />
+      <circle
+         cx="170"
+         cy="20"
+         r="5"
+         id="circle362" />
+      <circle
+         cx="170"
+         cy="40"
+         r="5"
+         id="circle364" />
+      <circle
+         cx="170"
+         cy="60"
+         r="5"
+         id="circle366" />
+      <circle
+         cx="170"
+         cy="70"
+         r="5"
+         id="circle368" />
+      <circle
+         cx="170"
+         cy="80"
+         r="5"
+         id="circle370" />
+      <circle
+         cx="170"
+         cy="90"
+         r="5"
+         id="circle372" />
+      <circle
+         cx="170"
+         cy="100"
+         r="5"
+         id="circle374" />
+      <circle
+         cx="170"
+         cy="110"
+         r="5"
+         id="circle376" />
+      <circle
+         cx="170"
+         cy="120"
+         r="5"
+         id="circle378" />
+      <circle
+         cx="170"
+         cy="140"
+         r="5"
+         id="circle380" />
+      <circle
+         cx="170"
+         cy="150"
+         r="5"
+         id="circle382" />
+      <circle
+         cx="170"
+         cy="170"
+         r="5"
+         id="circle384" />
+      <circle
+         cx="170"
+         cy="210"
+         r="5"
+         id="circle386" />
+      <circle
+         cx="170"
+         cy="240"
+         r="5"
+         id="circle388" />
+      <circle
+         cx="170"
+         cy="260"
+         r="5"
+         id="circle390" />
+      <circle
+         cx="170"
+         cy="280"
+         r="5"
+         id="circle392" />
+      <circle
+         cx="170"
+         cy="290"
+         r="5"
+         id="circle394" />
+      <circle
+         cx="180"
+         cy="10"
+         r="5"
+         id="circle396" />
+      <circle
+         cx="180"
+         cy="30"
+         r="5"
+         id="circle398" />
+      <circle
+         cx="180"
+         cy="40"
+         r="5"
+         id="circle400" />
+      <circle
+         cx="180"
+         cy="50"
+         r="5"
+         id="circle402" />
+      <circle
+         cx="180"
+         cy="60"
+         r="5"
+         id="circle404" />
+      <circle
+         cx="180"
+         cy="80"
+         r="5"
+         id="circle406" />
+      <circle
+         cx="180"
+         cy="90"
+         r="5"
+         id="circle408" />
+      <circle
+         cx="180"
+         cy="110"
+         r="5"
+         id="circle410" />
+      <circle
+         cx="180"
+         cy="130"
+         r="5"
+         id="circle412" />
+      <circle
+         cx="180"
+         cy="170"
+         r="5"
+         id="circle414" />
+      <circle
+         cx="180"
+         cy="180"
+         r="5"
+         id="circle416" />
+      <circle
+         cx="180"
+         cy="190"
+         r="5"
+         id="circle418" />
+      <circle
+         cx="180"
+         cy="200"
+         r="5"
+         id="circle420" />
+      <circle
+         cx="180"
+         cy="210"
+         r="5"
+         id="circle422" />
+      <circle
+         cx="180"
+         cy="250"
+         r="5"
+         id="circle424" />
+      <circle
+         cx="190"
+         cy="10"
+         r="5"
+         id="circle426" />
+      <circle
+         cx="190"
+         cy="20"
+         r="5"
+         id="circle428" />
+      <circle
+         cx="190"
+         cy="30"
+         r="5"
+         id="circle430" />
+      <circle
+         cx="190"
+         cy="40"
+         r="5"
+         id="circle432" />
+      <circle
+         cx="190"
+         cy="70"
+         r="5"
+         id="circle434" />
+      <circle
+         cx="190"
+         cy="90"
+         r="5"
+         id="circle436" />
+      <circle
+         cx="190"
+         cy="130"
+         r="5"
+         id="circle438" />
+      <circle
+         cx="190"
+         cy="160"
+         r="5"
+         id="circle440" />
+      <circle
+         cx="190"
+         cy="180"
+         r="5"
+         id="circle442" />
+      <circle
+         cx="190"
+         cy="200"
+         r="5"
+         id="circle444" />
+      <circle
+         cx="190"
+         cy="210"
+         r="5"
+         id="circle446" />
+      <circle
+         cx="190"
+         cy="240"
+         r="5"
+         id="circle448" />
+      <circle
+         cx="190"
+         cy="290"
+         r="5"
+         id="circle450" />
+      <circle
+         cx="200"
+         cy="10"
+         r="5"
+         id="circle452" />
+      <circle
+         cx="200"
+         cy="20"
+         r="5"
+         id="circle454" />
+      <circle
+         cx="200"
+         cy="40"
+         r="5"
+         id="circle456" />
+      <circle
+         cx="200"
+         cy="80"
+         r="5"
+         id="circle458" />
+      <circle
+         cx="200"
+         cy="100"
+         r="5"
+         id="circle460" />
+      <circle
+         cx="200"
+         cy="130"
+         r="5"
+         id="circle462" />
+      <circle
+         cx="200"
+         cy="140"
+         r="5"
+         id="circle464" />
+      <circle
+         cx="200"
+         cy="220"
+         r="5"
+         id="circle466" />
+      <circle
+         cx="200"
+         cy="230"
+         r="5"
+         id="circle468" />
+      <circle
+         cx="200"
+         cy="240"
+         r="5"
+         id="circle470" />
+      <circle
+         cx="200"
+         cy="250"
+         r="5"
+         id="circle472" />
+      <circle
+         cx="200"
+         cy="270"
+         r="5"
+         id="circle474" />
+      <circle
+         cx="200"
+         cy="290"
+         r="5"
+         id="circle476" />
+      <circle
+         cx="210"
+         cy="10"
+         r="5"
+         id="circle478" />
+      <circle
+         cx="210"
+         cy="20"
+         r="5"
+         id="circle480" />
+      <circle
+         cx="210"
+         cy="60"
+         r="5"
+         id="circle482" />
+      <circle
+         cx="210"
+         cy="70"
+         r="5"
+         id="circle484" />
+      <circle
+         cx="210"
+         cy="80"
+         r="5"
+         id="circle486" />
+      <circle
+         cx="210"
+         cy="160"
+         r="5"
+         id="circle488" />
+      <circle
+         cx="210"
+         cy="180"
+         r="5"
+         id="circle490" />
+      <circle
+         cx="210"
+         cy="210"
+         r="5"
+         id="circle492" />
+      <circle
+         cx="210"
+         cy="220"
+         r="5"
+         id="circle494" />
+      <circle
+         cx="210"
+         cy="230"
+         r="5"
+         id="circle496" />
+      <circle
+         cx="210"
+         cy="240"
+         r="5"
+         id="circle498" />
+      <circle
+         cx="210"
+         cy="250"
+         r="5"
+         id="circle500" />
+      <circle
+         cx="210"
+         cy="260"
+         r="5"
+         id="circle502" />
+      <circle
+         cx="210"
+         cy="270"
+         r="5"
+         id="circle504" />
+      <circle
+         cx="220"
+         cy="90"
+         r="5"
+         id="circle506" />
+      <circle
+         cx="220"
+         cy="110"
+         r="5"
+         id="circle508" />
+      <circle
+         cx="220"
+         cy="130"
+         r="5"
+         id="circle510" />
+      <circle
+         cx="220"
+         cy="160"
+         r="5"
+         id="circle512" />
+      <circle
+         cx="220"
+         cy="190"
+         r="5"
+         id="circle514" />
+      <circle
+         cx="220"
+         cy="210"
+         r="5"
+         id="circle516" />
+      <circle
+         cx="220"
+         cy="250"
+         r="5"
+         id="circle518" />
+      <circle
+         cx="220"
+         cy="260"
+         r="5"
+         id="circle520" />
+      <circle
+         cx="220"
+         cy="270"
+         r="5"
+         id="circle522" />
+      <circle
+         cx="230"
+         cy="100"
+         r="5"
+         id="circle524" />
+      <circle
+         cx="230"
+         cy="110"
+         r="5"
+         id="circle526" />
+      <circle
+         cx="230"
+         cy="140"
+         r="5"
+         id="circle528" />
+      <circle
+         cx="230"
+         cy="160"
+         r="5"
+         id="circle530" />
+      <circle
+         cx="230"
+         cy="200"
+         r="5"
+         id="circle532" />
+      <circle
+         cx="230"
+         cy="210"
+         r="5"
+         id="circle534" />
+      <circle
+         cx="230"
+         cy="230"
+         r="5"
+         id="circle536" />
+      <circle
+         cx="230"
+         cy="250"
+         r="5"
+         id="circle538" />
+      <circle
+         cx="230"
+         cy="270"
+         r="5"
+         id="circle540" />
+      <circle
+         cx="240"
+         cy="90"
+         r="5"
+         id="circle542" />
+      <circle
+         cx="240"
+         cy="110"
+         r="5"
+         id="circle544" />
+      <circle
+         cx="240"
+         cy="130"
+         r="5"
+         id="circle546" />
+      <circle
+         cx="240"
+         cy="140"
+         r="5"
+         id="circle548" />
+      <circle
+         cx="240"
+         cy="150"
+         r="5"
+         id="circle550" />
+      <circle
+         cx="240"
+         cy="180"
+         r="5"
+         id="circle552" />
+      <circle
+         cx="240"
+         cy="200"
+         r="5"
+         id="circle554" />
+      <circle
+         cx="240"
+         cy="210"
+         r="5"
+         id="circle556" />
+      <circle
+         cx="240"
+         cy="250"
+         r="5"
+         id="circle558" />
+      <circle
+         cx="240"
+         cy="260"
+         r="5"
+         id="circle560" />
+      <circle
+         cx="250"
+         cy="90"
+         r="5"
+         id="circle562" />
+      <circle
+         cx="250"
+         cy="100"
+         r="5"
+         id="circle564" />
+      <circle
+         cx="250"
+         cy="110"
+         r="5"
+         id="circle566" />
+      <circle
+         cx="250"
+         cy="120"
+         r="5"
+         id="circle568" />
+      <circle
+         cx="250"
+         cy="130"
+         r="5"
+         id="circle570" />
+      <circle
+         cx="250"
+         cy="140"
+         r="5"
+         id="circle572" />
+      <circle
+         cx="250"
+         cy="160"
+         r="5"
+         id="circle574" />
+      <circle
+         cx="250"
+         cy="170"
+         r="5"
+         id="circle576" />
+      <circle
+         cx="250"
+         cy="180"
+         r="5"
+         id="circle578" />
+      <circle
+         cx="250"
+         cy="190"
+         r="5"
+         id="circle580" />
+      <circle
+         cx="250"
+         cy="200"
+         r="5"
+         id="circle582" />
+      <circle
+         cx="250"
+         cy="210"
+         r="5"
+         id="circle584" />
+      <circle
+         cx="250"
+         cy="220"
+         r="5"
+         id="circle586" />
+      <circle
+         cx="250"
+         cy="230"
+         r="5"
+         id="circle588" />
+      <circle
+         cx="250"
+         cy="240"
+         r="5"
+         id="circle590" />
+      <circle
+         cx="250"
+         cy="250"
+         r="5"
+         id="circle592" />
+      <circle
+         cx="250"
+         cy="280"
+         r="5"
+         id="circle594" />
+      <circle
+         cx="250"
+         cy="290"
+         r="5"
+         id="circle596" />
+      <circle
+         cx="260"
+         cy="90"
+         r="5"
+         id="circle598" />
+      <circle
+         cx="260"
+         cy="100"
+         r="5"
+         id="circle600" />
+      <circle
+         cx="260"
+         cy="110"
+         r="5"
+         id="circle602" />
+      <circle
+         cx="260"
+         cy="140"
+         r="5"
+         id="circle604" />
+      <circle
+         cx="260"
+         cy="170"
+         r="5"
+         id="circle606" />
+      <circle
+         cx="260"
+         cy="180"
+         r="5"
+         id="circle608" />
+      <circle
+         cx="260"
+         cy="190"
+         r="5"
+         id="circle610" />
+      <circle
+         cx="260"
+         cy="240"
+         r="5"
+         id="circle612" />
+      <circle
+         cx="260"
+         cy="280"
+         r="5"
+         id="circle614" />
+      <circle
+         cx="270"
+         cy="110"
+         r="5"
+         id="circle616" />
+      <circle
+         cx="270"
+         cy="120"
+         r="5"
+         id="circle618" />
+      <circle
+         cx="270"
+         cy="140"
+         r="5"
+         id="circle620" />
+      <circle
+         cx="270"
+         cy="150"
+         r="5"
+         id="circle622" />
+      <circle
+         cx="270"
+         cy="170"
+         r="5"
+         id="circle624" />
+      <circle
+         cx="270"
+         cy="180"
+         r="5"
+         id="circle626" />
+      <circle
+         cx="270"
+         cy="210"
+         r="5"
+         id="circle628" />
+      <circle
+         cx="270"
+         cy="220"
+         r="5"
+         id="circle630" />
+      <circle
+         cx="270"
+         cy="240"
+         r="5"
+         id="circle632" />
+      <circle
+         cx="270"
+         cy="250"
+         r="5"
+         id="circle634" />
+      <circle
+         cx="270"
+         cy="270"
+         r="5"
+         id="circle636" />
+      <circle
+         cx="270"
+         cy="280"
+         r="5"
+         id="circle638" />
+      <circle
+         cx="270"
+         cy="290"
+         r="5"
+         id="circle640" />
+      <circle
+         cx="280"
+         cy="90"
+         r="5"
+         id="circle642" />
+      <circle
+         cx="280"
+         cy="100"
+         r="5"
+         id="circle644" />
+      <circle
+         cx="280"
+         cy="110"
+         r="5"
+         id="circle646" />
+      <circle
+         cx="280"
+         cy="120"
+         r="5"
+         id="circle648" />
+      <circle
+         cx="280"
+         cy="150"
+         r="5"
+         id="circle650" />
+      <circle
+         cx="280"
+         cy="160"
+         r="5"
+         id="circle652" />
+      <circle
+         cx="280"
+         cy="190"
+         r="5"
+         id="circle654" />
+      <circle
+         cx="280"
+         cy="250"
+         r="5"
+         id="circle656" />
+      <circle
+         cx="280"
+         cy="260"
+         r="5"
+         id="circle658" />
+      <circle
+         cx="280"
+         cy="270"
+         r="5"
+         id="circle660" />
+      <circle
+         cx="280"
+         cy="290"
+         r="5"
+         id="circle662" />
+      <circle
+         cx="290"
+         cy="130"
+         r="5"
+         id="circle664" />
+      <circle
+         cx="290"
+         cy="170"
+         r="5"
+         id="circle666" />
+      <circle
+         cx="290"
+         cy="200"
+         r="5"
+         id="circle668" />
+      <circle
+         cx="290"
+         cy="210"
+         r="5"
+         id="circle670" />
+      <circle
+         cx="290"
+         cy="240"
+         r="5"
+         id="circle672" />
+      <circle
+         cx="290"
+         cy="250"
+         r="5"
+         id="circle674" />
+      <path
+         clip-rule="evenodd"
+         d="M 5,30 V 50 A 25,25 0 0 0 30,75 H 50 A 25,25 0 0 0 75,50 V 30 A 25,25 0 0 0 50,5 H 30 A 25,25 0 0 0 5,30 M 30,15 H 50 A 15,15 0 0 1 65,30 V 50 A 15,15 0 0 1 50,65 H 30 A 15,15 0 0 1 15,50 V 30 A 15,15 0 0 1 30,15"
+         id="path676" />
+      <circle
+         cx="30"
+         cy="30"
+         r="5"
+         id="circle678" />
+      <circle
+         cx="30"
+         cy="40"
+         r="5"
+         id="circle680" />
+      <circle
+         cx="30"
+         cy="50"
+         r="5"
+         id="circle682" />
+      <circle
+         cx="40"
+         cy="30"
+         r="5"
+         id="circle684" />
+      <circle
+         cx="40"
+         cy="40"
+         r="5"
+         id="circle686" />
+      <circle
+         cx="40"
+         cy="50"
+         r="5"
+         id="circle688" />
+      <circle
+         cx="50"
+         cy="30"
+         r="5"
+         id="circle690" />
+      <circle
+         cx="50"
+         cy="40"
+         r="5"
+         id="circle692" />
+      <circle
+         cx="50"
+         cy="50"
+         r="5"
+         id="circle694" />
+      <path
+         clip-rule="evenodd"
+         d="m 225,30 v 20 a 25,25 0 0 0 25,25 h 20 A 25,25 0 0 0 295,50 V 30 A 25,25 0 0 0 270,5 h -20 a 25,25 0 0 0 -25,25 m 25,-15 h 20 a 15,15 0 0 1 15,15 V 50 A 15,15 0 0 1 270,65 H 250 A 15,15 0 0 1 235,50 V 30 a 15,15 0 0 1 15,-15"
+         transform="rotate(90,260,40)"
+         id="path696" />
+      <circle
+         cx="250"
+         cy="30"
+         r="5"
+         id="circle698" />
+      <circle
+         cx="250"
+         cy="40"
+         r="5"
+         id="circle700" />
+      <circle
+         cx="250"
+         cy="50"
+         r="5"
+         id="circle702" />
+      <circle
+         cx="260"
+         cy="30"
+         r="5"
+         id="circle704" />
+      <circle
+         cx="260"
+         cy="40"
+         r="5"
+         id="circle706" />
+      <circle
+         cx="260"
+         cy="50"
+         r="5"
+         id="circle708" />
+      <circle
+         cx="270"
+         cy="30"
+         r="5"
+         id="circle710" />
+      <circle
+         cx="270"
+         cy="40"
+         r="5"
+         id="circle712" />
+      <circle
+         cx="270"
+         cy="50"
+         r="5"
+         id="circle714" />
+      <path
+         clip-rule="evenodd"
+         d="m 5,250 v 20 a 25,25 0 0 0 25,25 H 50 A 25,25 0 0 0 75,270 V 250 A 25,25 0 0 0 50,225 H 30 A 25,25 0 0 0 5,250 m 25,-15 h 20 a 15,15 0 0 1 15,15 v 20 A 15,15 0 0 1 50,285 H 30 A 15,15 0 0 1 15,270 v -20 a 15,15 0 0 1 15,-15"
+         transform="rotate(-90,40,260)"
+         id="path716" />
+      <circle
+         cx="30"
+         cy="250"
+         r="5"
+         id="circle718" />
+      <circle
+         cx="30"
+         cy="260"
+         r="5"
+         id="circle720" />
+      <circle
+         cx="30"
+         cy="270"
+         r="5"
+         id="circle722" />
+      <circle
+         cx="40"
+         cy="250"
+         r="5"
+         id="circle724" />
+      <circle
+         cx="40"
+         cy="260"
+         r="5"
+         id="circle726" />
+      <circle
+         cx="40"
+         cy="270"
+         r="5"
+         id="circle728" />
+      <circle
+         cx="50"
+         cy="250"
+         r="5"
+         id="circle730" />
+      <circle
+         cx="50"
+         cy="260"
+         r="5"
+         id="circle732" />
+      <circle
+         cx="50"
+         cy="270"
+         r="5"
+         id="circle734" />
+    </clipPath>
+  </defs>
+  <rect
+     x="22.792459"
+     y="26.369385"
+     height="300"
+     width="300"
+     clip-path="url('#clip-path-background-color')"
+     fill="#ffffff"
+     id="rect739" />
+  <rect
+     x="0"
+     y="0"
+     height="300"
+     width="300"
+     clip-path="url(#clip-path-dot-color)"
+     fill="#22427a"
+     id="rect741"
+     transform="translate(22.792458,26.369376)"
+     style="opacity:1;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;fill:#273c75;fill-opacity:1" />
+  <rect
+     style="opacity:1;fill:none;stroke:#273c75;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1584"
+     width="338.44858"
+     height="347.73877"
+     x="3.5681701"
+     y="2.5"
+     ry="8.2083492" />
+  <rect
+     style="opacity:1;fill:#273c75;fill-opacity:1;stroke:#273c75;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4667"
+     width="339.51675"
+     height="56.514507"
+     x="2.5"
+     y="367.46704"
+     ry="26.498697"
+     rx="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48.5022px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.21256"
+     x="68.824066"
+     y="413.37976"
+     id="text8324"><tspan
+       sodipodi:role="line"
+       id="tspan8322"
+       x="68.824066"
+       y="413.37976"
+       style="fill:#ffffff;stroke-width:1.21256">SCAN ME</tspan></text>
+  <circle
+     style="opacity:1;fill:#ffffff;stroke:none;stroke-width:6.07382;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path9569"
+     cx="29.184988"
+     cy="395.7243"
+     r="24.070038" />
+  <g
+     id="g18011"
+     transform="matrix(0.58345168,0,0,0.58345168,98.28006,370.23906)"
+     style="stroke-width:0.99922585;stroke-miterlimit:4;stroke-dasharray:none">
+    <g
+       id="g17899"
+       style="stroke-width:0.99922585;stroke-miterlimit:4;stroke-dasharray:none;fill:#273c75;fill-opacity:1">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#273c75;stroke-width:6.31243362;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect12667"
+         width="35.893673"
+         height="62.03878"
+         x="-136.37151"
+         y="12.660738"
+         ry="5.8538265" />
+      <rect
+         style="fill:#273c75;fill-opacity:1;stroke:#273c75;stroke-width:0.99922585;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect12667-7"
+         width="32.359394"
+         height="8.5752525"
+         x="-134.60437"
+         y="15.718308"
+         ry="0.80913967" />
+      <rect
+         style="fill:#273c75;fill-opacity:1;stroke:#273c75;stroke-width:0.999226;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect12667-7-9"
+         width="32.373066"
+         height="7.7540159"
+         x="-134.61121"
+         y="63.524403"
+         ry="0.73164976" />
+    </g>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99922585;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect17748"
+       width="16.216597"
+       height="4.5242653"
+       x="-126.53297"
+       y="15.040923"
+       ry="1.8018229" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.99922585;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect17923"
+       width="3.5568423"
+       height="4.9595561"
+       x="-120.20309"
+       y="68.940201"
+       ry="0.99812597" />
+  </g>
+</svg>
